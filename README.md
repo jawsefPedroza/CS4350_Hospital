@@ -13,11 +13,14 @@ Before running the project, ensure you have the following installed:
 ## Setup Instructions
 
 ### 1. Set up MySQL Database
-1. Install MySQL Server (if not already installed).
-2. Create a database `myDB` and use the SQL scripts provided to create the necessary tables and insert data.
+1. Install MySQL Server (if not already installed) verion 8.3 or below.
+2. Install MySQL Connector/J verion 8.3.0 or lower (8.0)
+3. If Mac, install MySQL Community verion 8.0 or below 
+4. Create a database `myDB` and use the SQL scripts provided to create the necessary tables and insert data.
+5. FOR VSCODE ONLY: Create a java project and in Referenced Libraries click '+' and connect the jar file downloaded in MySQLConnector/J
+6. Paste App.java code and run the program!
 
 
-USE myDB;
 USE myDB;
 CREATE TABLE Patient (
     PatientID INT PRIMARY KEY,
